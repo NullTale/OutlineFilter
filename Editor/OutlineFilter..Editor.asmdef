@@ -1,0 +1,18 @@
+{
+    "name": "OutlineFilter.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:e49fcfdce63bb36429fbdccca024cb58"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
