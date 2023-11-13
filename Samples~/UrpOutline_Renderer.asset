@@ -86,7 +86,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _active: 1
   _shader: {fileID: 4800000, guid: f6967b2d081e4c49882be272993b436f, type: 3}
-  _modeDefault: 3
+  _modeDefault: 0
   _colorDefault:
     _grad:
       serializedVersion: 2
