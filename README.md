@@ -7,7 +7,7 @@ Work with 2D (by luma or brightness) and 3D (by depth)
 
 ## Usage
 Install via Unity [PackageManager](https://docs.unity3d.com/Manual/upm-ui-giturl.html)</br>
-Add `OutlineFeature` to the UrpRenderer
+Add `OutlineFilter` to the UrpRenderer
 ```
 https://github.com/NullTale/OutlineFilter.git
 ```
@@ -15,4 +15,4 @@ https://github.com/NullTale/OutlineFilter.git
 Can be used for short accents or drawing stylization</br>
 Default Volume parameters like outline color and filter mode can be configured in the asset</br>
 
-![_asset](https://github.com/NullTale/OutlineFilter/assets/1497430/b94de10b-c23c-4de9-8495-6ba2b3b55c5d)
+![_asset](https://github.com/NullTale/OutlineFilter/assets/1497430/e64fb73e-3e37-4ec3-b260-9a2fb338139f)
