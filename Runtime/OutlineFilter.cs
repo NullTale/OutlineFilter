@@ -7,7 +7,7 @@ using UnityEngine.Rendering.Universal;
 //  OutlineFilter © NullTale - https://twitter.com/NullTale/
 namespace VolFx
 {
-    public class OutlineFeature : ScriptableRendererFeature
+    public class OutlineFilter : ScriptableRendererFeature
     {
         protected static List<ShaderTagId> k_ShaderTags;
         
@@ -31,7 +31,7 @@ namespace VolFx
         // =======================================================================
         public class PassExecution : ScriptableRenderPass
         {
-            public  OutlineFeature      _owner;
+            public  OutlineFilter      _owner;
             private RenderTarget _output;
             
             // =======================================================================

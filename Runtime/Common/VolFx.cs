@@ -14,7 +14,7 @@ namespace VolFx
         public abstract class Pass : ScriptableObject
         {
             [NonSerialized]
-            public OutlineFeature _owner;
+            public OutlineFilter _owner;
             [SerializeField]
             internal bool _active = true;
             [SerializeField] [HideInInspector]
