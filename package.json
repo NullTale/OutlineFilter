@@ -3,9 +3,9 @@
   "displayName": "OutlineFilter",
   "version": "1.0.0",
   "unity": "2022.1",
-  "description": "Image Outline post processing for unity Urp",
+  "description": "Image Outline post processing for Unity Urp",
   "documentationUrl": "https://github.com/NullTale/OutlineFilter",
-  "licensesUrl": "https://github.com/NullTale/OutlineFilter/master/LICENSE.md",
+  "licensesUrl": "https://github.com/NullTale/OutlineFilter/blob/master/LICENSE.md",
   "author": {
     "name": "NullTale",
     "email": "nulltale@gmail.com",
