@@ -5,6 +5,14 @@ Work with 2D (by luma or brightness) and 3D (by depth)
 
 ![_cover](https://github.com/NullTale/OutlineFilter/assets/1497430/ca30a418-585d-40f0-8ccf-cb847d8e5f46)
 
+## Part of Artwork Project
+
+* [Vhs](https://github.com/NullTale/VhsFx)
+* [OldMovie](https://github.com/NullTale/OldMovieFx)
+* [GradientMap](https://github.com/NullTale/GradientMapFilter)
+* [ScreenOutline]
+* [ImageFlow](https://github.com/NullTale/FlowFx)
+  
 ## Usage
 Install via Unity [PackageManager](https://docs.unity3d.com/Manual/upm-ui-giturl.html)</br>
 Add `OutlineFilter` to the UrpRenderer
