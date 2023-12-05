@@ -12,6 +12,7 @@ Work with 2D (by luma or brightness) and 3D (by depth)
 * [GradientMap](https://github.com/NullTale/GradientMapFilter)
 * [ScreenOutline]
 * [ImageFlow](https://github.com/NullTale/FlowFx)
+* [Pixelation](https://github.com/NullTale/PixelationFx)
   
 ## Usage
 Install via Unity [PackageManager](https://docs.unity3d.com/Manual/upm-ui-giturl.html)</br>
