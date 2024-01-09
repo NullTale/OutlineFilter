@@ -6,7 +6,7 @@ using UnityEngine.Rendering.Universal;
 //  OutlineFilter © NullTale - https://twitter.com/NullTale/
 namespace VolFx
 {
-    [Serializable, VolumeComponentMenu("Vol/Outline")]
+    [Serializable, VolumeComponentMenu("VolFx/Outline")]
     public sealed class OutlineVol : VolumeComponent, IPostProcessComponent
     {
         public ClampedFloatParameter m_Sensitive = new ClampedFloatParameter(0, 0, .2f);

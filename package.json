@@ -1,7 +1,7 @@
 {
   "name": "www.nulltale.outlinefilter",
   "displayName": "OutlineFilter",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "unity": "2022.1",
   "description": "Image Outline post processing for Unity Urp",
   "documentationUrl": "https://github.com/NullTale/OutlineFilter",

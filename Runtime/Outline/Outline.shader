@@ -119,7 +119,9 @@ Shader "Unlit/Vol/Outline"
                 float s   = pow(1 - saturate(sobel(input.uv)), _Sensitive);
                 half4 col = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, input.uv);
             	half4 outline = tex2D(_GradientTex, input.uv.yx);
-            	col.rgb = lerp(lerp(col.rgb, _BackgroundColor.rgb, _BackgroundColor.a), outline.rgb, outline.a * (1 - s));
+            	half l = outline.a * (1 - s); 
+            	col.rgb = lerp(lerp(col.rgb, _BackgroundColor.rgb, _BackgroundColor.a), outline.rgb, l);
+            	col.a += l;
             	return col;
             }
 			

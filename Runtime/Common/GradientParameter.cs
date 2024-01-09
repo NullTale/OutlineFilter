@@ -1,3 +1,5 @@
+#if !VOL_FX
+
 using System;
 using UnityEngine.Rendering;
 
@@ -20,3 +22,5 @@ namespace VolFx
         }
     }
 }
+
+#endif
