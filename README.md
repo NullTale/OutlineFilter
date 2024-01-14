@@ -4,7 +4,10 @@
 [![Boosty](https://img.shields.io/badge/Support-Boosty?logo=boosty&color=white)](https://boosty.to/nulltale)
 
 Screen Outline effect for Unity Urp<br>
-Work with 2D (by luma or brightness) and 3D (by depth)
+
+Effect work like filter by grayscale or brightness, outline the contrast zones.<br>
+Also can work by depth for 3D objects. Has gradient coloring and fill options for stylization purposes.
+> To work by depth the depth texture must be enabled in the asset settings
 
 ![_cover](https://github.com/NullTale/OutlineFilter/assets/1497430/ca30a418-585d-40f0-8ccf-cb847d8e5f46)
 
