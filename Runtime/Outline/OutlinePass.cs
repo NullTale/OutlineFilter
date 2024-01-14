@@ -1,5 +1,8 @@
 using System;
+using System.ComponentModel;
 using UnityEngine;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
 
 //  OutlineFilter © NullTale - https://twitter.com/NullTale/
 namespace VolFx
@@ -24,13 +27,16 @@ namespace VolFx
         public enum Mode
         {
             // grayscale
-            Luma,
+            Luma = 0,
             // brightness
-            Chroma,
-            // alpha, default render camera format hos no alpha channel
-            Alpha,
+            Chroma = 1,
+            // alpha, default render camera format hos no alpha channel used only in VolFx
+#if !VOL_FX
+            [InspectorName(null)]
+#endif
+            Alpha = 2,
             // from depth buffer [depth texture must be enabled in renderer asset settings!]
-            Depth
+            Depth = 3
         }
         
         // =======================================================================
@@ -75,11 +81,18 @@ namespace VolFx
 
         private void _updateMode(Material mat)
         {
+            {
+                Debug.LogWarning("ScreenOutline work in depth mode, but the depth texture is disabled in UrpAsset settings");
+            }
+#endif
+                
             _modePrev = _mode;
+                
             mat.DisableKeyword("_LUMA");
             mat.DisableKeyword("_ALPHA");
             mat.DisableKeyword("_CHROMA");
             mat.DisableKeyword("_DEPTH");
+            
 
             mat.EnableKeyword(_mode switch
             {
