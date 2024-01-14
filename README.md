@@ -5,9 +5,9 @@
 
 Screen Outline effect for Unity Urp<br>
 
-Effect work like filter by grayscale or brightness, outline the contrast zones.<br>
+Effect work like [sobel](https://en.wikipedia.org/wiki/Sobel_operator) filter by image [grayscale](https://en.wikipedia.org/wiki/Luma_(video)) or [brightness](https://en.wikipedia.org/wiki/Chrominance), outline the contrast zones.<br>
 Also can work by depth for 3D objects. Has gradient coloring and fill options for stylization purposes.
-> To work by depth the depth texture must be enabled in the asset settings
+> To work by depth the depth texture must be enabled in the urp asset settings
 
 ![_cover](https://github.com/NullTale/OutlineFilter/assets/1497430/ca30a418-585d-40f0-8ccf-cb847d8e5f46)
 
