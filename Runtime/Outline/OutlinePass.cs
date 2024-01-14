@@ -81,6 +81,10 @@ namespace VolFx
 
         private void _updateMode(Material mat)
         {
+#if UNITY_EDITOR
+            if (_modePrev != _mode 
+                && _mode == Mode.Depth
+                && GraphicsSettings.currentRenderPipeline is UniversalRenderPipelineAsset urp && urp.supportsCameraDepthTexture == false)
             {
                 Debug.LogWarning("ScreenOutline work in depth mode, but the depth texture is disabled in UrpAsset settings");
             }
