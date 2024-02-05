@@ -7,7 +7,7 @@ using UnityEngine.Rendering.Universal;
 //  OutlineFilter © NullTale - https://twitter.com/NullTale/
 namespace VolFx
 {
-    [ShaderName("Unlit/Vol/Outline")]
+    [ShaderName("Hidden/Vol/Outline")]
     public class OutlinePass : VolFx.Pass
     {
         private static readonly int s_Thickness       = Shader.PropertyToID("_Thickness");

@@ -1,4 +1,4 @@
-Shader "Unlit/Vol/Outline"
+Shader "Hidden/Vol/Outline"
 {
 	Properties 
 	{
