@@ -22,6 +22,7 @@ All effects can work individually or as a part of [VolFx](https://github.com/Nul
 * [ScreenOutline]
 * [ImageFlow](https://github.com/NullTale/FlowFx)
 * [Pixelation](https://github.com/NullTale/PixelationFx)
+* [Ascii](https://github.com/NullTale/AsciiFx)
 * ...
   
 ## Usage
