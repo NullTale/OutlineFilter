@@ -8,7 +8,7 @@ using UnityEngine.Rendering.Universal;
 namespace VolFx
 {
     [ShaderName("Hidden/Vol/Outline")]
-    public class OutlinePass : VolFx.Pass
+    public class OutlinePass : VolFxProc.Pass
     {
         private static readonly int s_Thickness       = Shader.PropertyToID("_Thickness");
         private static readonly int s_Sensitive       = Shader.PropertyToID("_Sensitive");
