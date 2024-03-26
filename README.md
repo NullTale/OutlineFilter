@@ -4,7 +4,8 @@
 [![Discord](https://img.shields.io/badge/Discord-Discord?logo=discord&color=white)](https://discord.gg/CkdQvtA5un)
 [![Boosty](https://img.shields.io/badge/Support-Boosty?logo=boosty&color=white)](https://boosty.to/nulltale)
 
-Screen Outline effect for Unity Urp<br>
+Screen Outline effect for Unity Urp, controlled via volume profile </br>
+Works as render feature or a pass for selective post processing [VolFx](https://github.com/NullTale/VolFx)
 
 Effect work like [sobel](https://en.wikipedia.org/wiki/Sobel_operator) filter by image [luma](https://en.wikipedia.org/wiki/Luma_(video)) or [chroma](https://en.wikipedia.org/wiki/Chrominance), outline the contrast zones.<br>
 Also can work by depth for 3D objects or alpha if used in [VolFx](https://github.com/NullTale/VolFx).<br>
@@ -23,6 +24,7 @@ All effects can work individually or as a part of [VolFx](https://github.com/Nul
 * [ImageFlow](https://github.com/NullTale/FlowFx)
 * [Pixelation](https://github.com/NullTale/PixelationFx)
 * [Ascii](https://github.com/NullTale/AsciiFx)
+* [Dither](https://github.com/NullTale/DitherFx)
 * ...
   
 ## Usage
