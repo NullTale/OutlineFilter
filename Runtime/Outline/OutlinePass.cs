@@ -4,11 +4,11 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 
-//  OutlineFilter © NullTale - https://twitter.com/NullTale/
+//  OutlineFilter © NullTale - https://x.com/NullTale
 namespace VolFx
 {
     [ShaderName("Hidden/Vol/Outline")]
-    public class OutlinePass : VolFxProc.Pass
+    public class OutlinePass : VolFx.Pass
     {
         private static readonly int s_Thickness       = Shader.PropertyToID("_Thickness");
         private static readonly int s_Sensitive       = Shader.PropertyToID("_Sensitive");
