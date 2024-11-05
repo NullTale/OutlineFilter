@@ -4,7 +4,8 @@
 [![Discord](https://img.shields.io/badge/Discord-Discord?logo=discord&color=white)](https://discord.gg/CkdQvtA5un)
 [![Asset Store](https://img.shields.io/badge/Asset%20Store-asd?logo=Unity&color=blue)](https://assetstore.unity.com/packages/vfx/shaders/fullscreen-camera-effects/270019)
 
-FOR NOT COMMERCIAL USE ONLY version is not supported and deprecated, release available only in the [Asset Store](https://assetstore.unity.com/packages/vfx/shaders/fullscreen-camera-effects/270019) read a license
+FOR NOT COMMERCIAL USE ONLY, it can be used for jems learning etc<br>
+Read a license, full version available on the [Asset Store](https://assetstore.unity.com/packages/vfx/shaders/fullscreen-camera-effects/270019)
 
 Screen Outline effect for Unity Urp, controlled via volume profile </br>
 Works as render feature or a pass for selective post processing [VolFx](https://github.com/NullTale/VolFx)
@@ -21,8 +22,8 @@ Has gradient coloring and fill options for stylization purposes.
 * [Vhs](https://github.com/NullTale/VhsFx)
 * [OldMovie](https://github.com/NullTale/OldMovieFx)
 * [GradientMap](https://github.com/NullTale/GradientMapFilter)
-* [ScreenOutline]
-* [ImageFlow](https://github.com/NullTale/FlowFx)
+* [Outline]
+* [Flow](https://github.com/NullTale/FlowFx)
 * [Pixelation](https://github.com/NullTale/PixelationFx)
 * [Ascii](https://github.com/NullTale/AsciiFx)
 * [Dither](https://github.com/NullTale/DitherFx)
